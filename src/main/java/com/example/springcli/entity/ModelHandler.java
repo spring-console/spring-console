@@ -22,7 +22,6 @@ public class ModelHandler extends OptionHandler {
     @SuppressWarnings("unused")
     private OptionSpec<String> parametersEntity;
 
-
     @Override
     protected void options() {
         this.nameEntity = option(Arrays.asList("nameEntity", "n"), "Name of entity").withRequiredArg();
