@@ -1,4 +1,4 @@
-package com.example.springcli.entity;
+package spring.console.entity;
 
 import org.springframework.boot.cli.command.OptionParsingCommand;
 import org.springframework.boot.cli.command.options.OptionHandler;
