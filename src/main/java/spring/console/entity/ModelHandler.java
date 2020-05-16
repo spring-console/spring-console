@@ -1,14 +1,11 @@
-package com.example.springcli.entity;
+package spring.console.entity;
 
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
 import org.springframework.boot.cli.command.options.OptionHandler;
 import org.springframework.boot.cli.command.status.ExitStatus;
 
-import java.io.IOException;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author NetoDevel
@@ -21,7 +18,6 @@ public class ModelHandler extends OptionHandler {
 
     @SuppressWarnings("unused")
     private OptionSpec<String> parametersEntity;
-
 
     @Override
     protected void options() {

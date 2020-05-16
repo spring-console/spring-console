@@ -1,10 +1,9 @@
-package com.example.springcli;
+package spring.console;
 
-import com.example.springcli.entity.ModelCommand;
-import com.example.springcli.entity.ModelHandler;
+import spring.console.entity.ModelCommand;
+import spring.console.entity.ModelHandler;
 import org.springframework.boot.cli.command.Command;
 import org.springframework.boot.cli.command.CommandFactory;
-
 import java.util.Arrays;
 import java.util.Collection;
 
