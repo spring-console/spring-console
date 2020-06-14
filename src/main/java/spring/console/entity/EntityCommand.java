@@ -8,14 +8,14 @@ import org.springframework.boot.cli.command.options.OptionHandler;
  * @author NetoDevel
  * @since 0.0.1
  */
-public class ModelCommand extends OptionParsingCommand {
+public class EntityCommand extends OptionParsingCommand {
 
-	public ModelCommand(String name, String description, OptionHandler handler) {
+	public EntityCommand(String name, String description, OptionHandler handler) {
 		super(name, description, handler);
 	}
 
 	@Override
 	public String getUsageHelp() {
-		return "<entity> <attributes>";
+		return "[entity] <attributes> [options]";
 	}
 }
