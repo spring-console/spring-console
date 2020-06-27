@@ -65,6 +65,7 @@ class EntitySpec extends Specification {
 
     def "run should create a new entity with the specific fields"(){
 
+
         given:
         OptionParser parser = new OptionParser()
         parser.accepts("name").withRequiredArg()
