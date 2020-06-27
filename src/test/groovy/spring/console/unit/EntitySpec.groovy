@@ -44,7 +44,7 @@ class EntitySpec extends Specification {
         entityHandler.run(options)
 
         then:
-        File file = new File(FileDirectory.DIR + "/spring/console/entity/" + StringUtils.capitalize("User") + ".java")
+        File file = new File(FileDirectory.DIR + "/spring/console/entity/" + StringUtils.capitalize("user") + ".java")
         assert file.exists()
     }
 
@@ -59,7 +59,7 @@ class EntitySpec extends Specification {
         entityHandler.run(options)
 
         then:
-        File file = new File(FileDirectory.DIR + "/spring/console/entity/" + StringUtils.capitalize("User") + ".java")
+        File file = new File(FileDirectory.DIR + "/spring/console/entity/" + StringUtils.capitalize("user") + ".java")
         assert file.exists()
     }
 
@@ -75,7 +75,7 @@ class EntitySpec extends Specification {
         entityHandler.run(options)
 
         then:
-        File file = new File(FileDirectory.DIR + "/spring/console/entity/" + StringUtils.capitalize("User") + ".java")
+        File file = new File(FileDirectory.DIR + "/spring/console/entity/" + StringUtils.capitalize("user") + ".java")
         assert file.exists()
     }
 
